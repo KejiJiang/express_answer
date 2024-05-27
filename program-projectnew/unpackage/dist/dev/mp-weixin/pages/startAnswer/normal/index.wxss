@@ -1,0 +1,23 @@
+
+.items {
+		/* border: 1rpx solid black; */
+}
+#wrapper {
+		top: calc(var(--status-bar-height)*2);
+}
+@font-face {
+		font-family: "阿里妈妈东方大楷";
+		font-weight: 400;
+		src: url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/XRzQeyqgollt.woff2") format("woff2"),
+			url("//at.alicdn.com/wf/webfont/f2wEXLd1xeef/SYxDK94sZIe1.woff") format("woff");
+		font-display: swap;
+}
+.corret {
+		background-color: #76ff03 !important;
+}
+.error {
+		background-color: #f44336 !important;
+}
+.hasChosen {
+		background-color: #fdd835;
+}
